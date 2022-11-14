@@ -9,8 +9,8 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "user" && password === "1234") {
         alert("You have successfully logged in.");
-        window.location = https://ro02732.github.io/HOMEPAGE
-        //location.reload();
+        
+        location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
     }
